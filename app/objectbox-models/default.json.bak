@@ -1,0 +1,78 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5486732228634735931",
+      "lastPropertyId": "3:4123756976151340999",
+      "name": "Province",
+      "properties": [
+        {
+          "id": "1:1265538163763900957",
+          "name": "id"
+        },
+        {
+          "id": "2:4635405275624085496",
+          "name": "provinceName"
+        },
+        {
+          "id": "3:4123756976151340999",
+          "name": "provinceCode"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:8699357103674621325",
+      "lastPropertyId": "3:4387868881500495442",
+      "name": "City",
+      "properties": [
+        {
+          "id": "1:4953322747069692435",
+          "name": "id"
+        },
+        {
+          "id": "2:6493707682786616268",
+          "name": "cityName"
+        },
+        {
+          "id": "3:4387868881500495442",
+          "name": "cityCode"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:3900664194906432418",
+      "lastPropertyId": "3:4338206698985799762",
+      "name": "County",
+      "properties": [
+        {
+          "id": "1:7562511766338450114",
+          "name": "id"
+        },
+        {
+          "id": "2:2214880315974562432",
+          "name": "countyName"
+        },
+        {
+          "id": "3:4338206698985799762",
+          "name": "weatherId"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:3900664194906432418",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
